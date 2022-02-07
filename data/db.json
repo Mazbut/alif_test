@@ -1,0 +1,118 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Buston",
+      "author": "Sa'di Sherozi",
+      "page": "155",
+      "sold": "2500000",
+      "published": "1993",
+      "category": "poem"
+    },
+    {
+      "id": 2,
+      "title": "Tojikon",
+      "author": "Bobojon Gafurov",
+      "page": "855",
+      "sold": "1000000",
+      "published": "2021",
+      "category": "history"
+    },
+    {
+      "title": "salom ",
+      "details": "asasasasas",
+      "category": "money",
+      "id": 3
+    },
+    {
+      "title": "salom ",
+      "details": "asasasasas",
+      "category": "money",
+      "id": 4
+    },
+    {
+      "title": "salom ",
+      "details": "asasasasas",
+      "category": "money",
+      "id": 5
+    },
+    {
+      "title": "salom ",
+      "details": "asasasasas",
+      "category": "money",
+      "id": 6
+    },
+    {
+      "title": "Tojikonnn",
+      "author": "B.Gafurov",
+      "page": "1000\n",
+      "sold": "100",
+      "category": "tarix",
+      "id": 7
+    },
+    {
+      "title": "Tojikonnn",
+      "author": "B.Gafurov",
+      "page": "1000\n",
+      "sold": "100",
+      "category": "tarix",
+      "id": 8
+    },
+    {
+      "title": "asd",
+      "author": "asd",
+      "page": "asd",
+      "sold": "asd",
+      "category": "dasd",
+      "id": 9
+    },
+    {
+      "title": "eqwe",
+      "author": "qwe",
+      "page": "qwe",
+      "sold": "qwe",
+      "category": "qwe",
+      "id": 10
+    },
+    {
+      "title": "dfdfgdfg",
+      "author": "dfg",
+      "page": "dfgdfg",
+      "sold": "dfgdfg",
+      "category": "dfgdfgd",
+      "id": 11
+    },
+    {
+      "title": "asd",
+      "author": "asd",
+      "page": "asd",
+      "sold": "asd",
+      "category": "asd",
+      "id": 12
+    },
+    {
+      "title": "213",
+      "author": "123",
+      "page": "123",
+      "sold": "123",
+      "category": "123",
+      "id": 13
+    },
+    {
+      "title": "qweq",
+      "author": "qwe",
+      "page": "qwe",
+      "sold": "qwe",
+      "category": "qwe",
+      "id": 14
+    },
+    {
+      "title": "sdf",
+      "author": "sdf",
+      "page": "sdf",
+      "sold": "as",
+      "category": "asd",
+      "id": 15
+    }
+  ]
+}
