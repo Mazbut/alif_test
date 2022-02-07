@@ -57,7 +57,7 @@ export default function DataTable() {
   }, []);
 
   return (
-    <div style={{ height: 400, width: '90%' }}>    
+    <div style={{ height: 400, width: '90%',display:"flex", alignContent:'center', justifyContent:'center', marginLeft:'4%' }}>    
       {error ? <p>Something went wrong!</p>: loading? <CircularProgress />:
       <TableContainer component={Paper}>
       <Table sx={{ minWidth: 650 }} aria-label="simple table">

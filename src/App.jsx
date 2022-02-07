@@ -6,13 +6,8 @@ function App() {
   return (
     <div className="App" style={{marginTop:"6%"}}>
           <Grid container spacing={2}>
-            <Grid item xs={6}>
             <AddBooks/>
-            </Grid>
-            <Grid item xs={6}>
-            <DataTable/>
-            </Grid>
-         
+            <DataTable/>         
           </Grid>
     </div>
   );

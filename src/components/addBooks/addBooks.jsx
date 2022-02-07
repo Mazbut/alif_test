@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { makeStyles } from '@mui/styles';
-import {Container, Radio, Button, TextField, Typography } from '@mui/material';
+import {Container, Radio, Button, TextField, Typography,Box } from '@mui/material';
 import { useForm } from "react-hook-form";
-
+import Modal from '@mui/material/Modal';
 const useStyles = makeStyles({
   field: {
     marginTop: 20,
@@ -11,7 +11,17 @@ const useStyles = makeStyles({
     
   }
 })
-
+const style = {
+  position: 'absolute',
+  top: '50%',
+  left: '50%',
+  transform: 'translate(-50%, -50%)',
+  width: 400,
+  bgcolor: 'background.paper',
+  border: '2px solid #000',
+  boxShadow: 24,
+  p: 4,
+};
 export default function Create() {
   const classes = useStyles()
 //   const history = useHistory()
@@ -22,7 +32,9 @@ export default function Create() {
   const [category, setCategory] = useState('money')
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('');
- 
+  const [open, setOpen] = useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
   const handleSubmit = (e) => {
     // e.preventDefault()
     setLoading(true)   
@@ -40,7 +52,17 @@ export default function Create() {
 
   return (
     <Container size="sm" > 
-      <Typography
+    <div>
+      <Button onClick={handleOpen}>Add new book</Button>
+      <Modal
+        keepMounted
+        open={open}
+        onClose={handleClose}
+        aria-labelledby="keep-mounted-modal-title"
+        aria-describedby="keep-mounted-modal-description"
+      >
+        <Box sx={style}>         
+        <Typography
         variant="h6" 
         color="textSecondary"
         component="h2"
@@ -104,6 +126,10 @@ export default function Create() {
           Submit
         </Button>
       </form>
+        </Box>
+      </Modal>
+    </div>
+      
 
       
     </Container>
